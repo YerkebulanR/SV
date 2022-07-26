@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Rakhimov Y.B.</title>
+    <link rel="stylesheet" href="styles.CSS" />
+     <script src="script.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="CV">
+        <img
+          class="avatar"
+          src="photo_5402351015170261970_y.jfif"
+          alt="Image not found"
+        />
+
+        <div class="CVText">
+          <h1>Rakhimov Y.B. CV</h1>
+          <p>I am a student in KazNU after Al-Farabi</p>
+
+          <h4>My social media</h4>
+          <a
+            href="https://www.instagram.com/erkebulan.rahimov/?hl=ru"
+            target="_blank"
+            >Instagram</a
+          >
+          |
+          <a href="https://t.me/YerkebulanR" target="_blank">Telegram</a>
+        </div>
+      </div>
+
+      <div class="card bg-yellow">
+        <h2>Main information :</h2>
+        <ul class="list">
+          <li><strong>Full Name: </strong>Rakhimov Yerkebulan Bekbolatuly</li>
+          <li><strong>Age: </strong>23(1999)</li>
+          <li><strong>City: </strong>Uralsk, Almaty</li>
+          <li><strong>Phone number: </strong> +7 708 693 40 37</li>
+          <li>
+            <strong>Email: </strong
+            ><a href="erke.bulan622@gmail.com">erke.bulan622@gmail.com</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="card bg-green">
+        <h2>My second HTML</h2>
+        <a href="/" target="_blank">Index.html</a>
+      </div>
+
+      <div class="card bg-red">
+        <h2>About my family</h2>
+        <table class="table">
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City(Village)</th>
+          </tr>
+          <tr>
+            <td>Bekbolat</td>
+            <td>52(1970)</td>
+            <td>Karasu</td>
+          </tr>
+          <tr>
+            <td>Nurlugul</td>
+            <td>49(1973)</td>
+            <td>Budarin</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="question">
+        <h2>Ask question</h2>
+        <form id="form">
+          <div class="row">
+            <div class="field">
+              <label for="fullName">Name: </label>
+              <input
+                type="text"
+                id="fullName"
+                name="fullName"
+                placeholder="Write your name..."
+              />
+            </div>
+
+            <div class="field">
+              <label for="email_id">Email:</label>
+              <input
+                type="email"
+                id="email_id"
+                name="email_id"
+                placeholder="Write your email..."
+              />
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="message">Your question:</label>
+            <input
+              type="text"
+              id="message"
+              name="message"
+              placeholder="Ask your question..."
+            ></input>
+          </div>
+          <input class="btn" type="submit" id="button" value="Send Email" />
+        </form>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('Ri7PT63dTu6XiecvI')
+
+</script>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,185 @@
+.container {
+  max-width: 750px;
+  margin: auto;
+  font-size: initial;
+  font-style: italic;
+  padding: 30px;
+}
+
+body {
+  background-color: rgb(243, 242, 232);
+  color: black;
+
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.avatar {
+  width: 250px;
+  height: 300px;
+  border-radius: 28px;
+  box-shadow: 10px 8px 20px black;
+}
+
+.CV {
+  color: #0a0202;
+  font-size: initial;
+  font-style: italic;
+  text-transform: capitalize;
+  display: flex;
+}
+
+@media (max-width: 700px) {
+  .CV {
+    display: block;
+    text-align: center;
+  }
+}
+
+.CVText {
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
+
+.CVText h4 {
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+.CV p {
+  text-decoration: underline;
+  margin: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue;
+}
+
+a:visited {
+  color: grey;
+}
+
+.card {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+.card h2 {
+  margin-bottom: 15px;
+}
+
+.bg-yellow {
+  background: #d6c987;
+}
+
+.bg-green {
+  background: #82c582;
+}
+
+.bg-red {
+  background: #ca8787;
+}
+
+.list {
+  padding: 0px 20px;
+}
+
+.list li {
+  color: #133513;
+  margin-bottom: 10px;
+}
+
+.list a {
+  color: #133513;
+}
+
+.table {
+  width: 100%;
+  border: 2px #133513 solid;
+}
+
+.table td {
+  margin: 10px;
+  border: 2px #133513 solid;
+}
+
+.table tr {
+  background-color: #d6c987;
+}
+
+.question h2 {
+  text-align: center;
+}
+
+.field label {
+  display: block;
+  font-size: 14px;
+  color: #0a0202;
+  padding-left: 5px;
+}
+
+.field input {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: #0a0202;
+  padding: 15px 0 10px;
+  outline: none;
+  padding-left: 5px;
+}
+
+.field input:hover {
+  box-shadow: 0 0 15px #b9cead;
+  border-radius: 8px;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row .field {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.btn {
+  padding: 15px 17px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+/* .social {
+  background-color: red;
+  padding: 10px;
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+  margin: 15px 20px;
+} */
+
+/* .box-model > div {
+  float: left;
+  background-color: black;
+  height: 200px;
+  width: 25%;
+  border: 4px solid red;
+  box-sizing: border-box;
+} */
