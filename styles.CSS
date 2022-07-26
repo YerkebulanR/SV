@@ -172,10 +172,17 @@ a:visited {
 .btn {
   padding: 15px 17px;
   cursor: pointer;
+  border-radius: 15px;
+  border: 1px solid rgb(190, 171, 171);
+  background-color: rgb(238, 252, 247);
+  font-size: initial;
+  font-style: italic;
+  font-size: small;
 }
 
 .btn:hover {
   opacity: 0.9;
+  box-shadow: 0 0 15px #79ac5b;
 }
 /* .social {
   background-color: red;
